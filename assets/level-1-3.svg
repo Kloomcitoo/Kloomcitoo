@@ -30,8 +30,8 @@
 
 <path d="M1 1H629V466L600 495H1Z" fill="none" stroke="#ff2b3a" stroke-width="2"/>
 <rect width="630" height="30" fill="#ff2b3a"/>
-<text x="16" y="21" class="m ink" font-size="15">LEVEL 1-3  //  IN DEVELOPMENT</text>
-
+<text x="16" y="21" class="m ink" font-size="15">LEVEL 1-3  //  PORTFOLIO</text>
+<text x="566" y="21" class="m ink" font-size="15" text-anchor="end">julian-hinestroza.vercel.app →</text>
 <rect x="578" y="8" width="14" height="14" fill="none" stroke="#070707" stroke-width="2"/>
 <rect x="600" y="8" width="14" height="14" fill="#070707"/>
 <rect x="24" y="48" width="582" height="196" fill="#0b0b0b" stroke="#ff2b3a" stroke-width="2"/>
@@ -44,8 +44,8 @@
 <circle r="6" fill="#ffa11f"><animateMotion dur="20s" begin="-6s" repeatCount="indefinite" path="M423 164A108 38.879999999999995 0 1 1 207 164A108 38.879999999999995 0 1 1 423 164"/></circle><ellipse cx="315" cy="164" rx="146" ry="52.559999999999995" fill="none" stroke="#7a0a12" stroke-width="1.2" stroke-dasharray="5 5"/>
 <circle r="5" fill="#ff2b3a"><animateMotion dur="30s" begin="-9s" repeatCount="indefinite" path="M461 164A146 52.559999999999995 0 1 1 169 164A146 52.559999999999995 0 1 1 461 164"/></circle><ellipse cx="315" cy="164" rx="190" ry="68.39999999999999" fill="none" stroke="#7a0a12" stroke-width="1.2" stroke-dasharray="none"/>
 <circle r="4" fill="#ff2b3a"><animateMotion dur="44s" begin="-12s" repeatCount="indefinite" path="M505 164A190 68.39999999999999 0 1 1 125 164A190 68.39999999999999 0 1 1 505 164"/></circle><circle cx="315" cy="164" r="14" fill="#ff2b3a"/><circle cx="315" cy="164" r="22" fill="none" stroke="#ff2b3a" stroke-width="1" opacity=".5"/>
-<rect class="blink" x="24" y="267" width="12" height="12" fill="#ffa11f"/>
-<text x="44" y="278" class="m" font-size="15" fill="#ffa11f">STATUS: COMING SOON</text>
+<rect class="blink" x="24" y="267" width="12" height="12" fill="#3df2ff"/>
+<text x="44" y="278" class="m" font-size="15" fill="#3df2ff">STATUS: LIVE</text>
 <text x="24" y="318" class="d red" font-size="30">PORTFOLIO 3D</text>
 <text x="606" y="278" class="m grey" font-size="13" text-anchor="end">PROCEDURAL SOLAR SYSTEM</text>
 <g class="fade" style="animation-delay:0.3s">

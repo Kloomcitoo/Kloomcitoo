@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="BUGS ARE DEAD. COFFEE IS FUEL. PROD IS FULL. — Julian Hinestroza Duarte, ingeniero de software y desarrollador full-stack. Pereira, Colombia." />
+<a href="https://julian-hinestroza.vercel.app"><img src="assets/hero.svg" width="100%" alt="BUGS ARE DEAD. COFFEE IS FUEL. PROD IS FULL. — Julian Hinestroza Duarte, ingeniero de software y desarrollador full-stack. Pereira, Colombia." /></a>
 
 <br/>
 
@@ -56,14 +56,14 @@ Sistema de nóminas por quincenas para un taller de confección.
 <br/>
 
 <p align="center">
-  <img src="assets/level-1-3.svg" width="49%" alt="Nivel 1-3: Portafolio 3D, sistema solar procedural (próximamente)" />
+  <a href="https://julian-hinestroza.vercel.app"><img src="assets/level-1-3.svg" width="49%" alt="Nivel 1-3: Portafolio 3D, sistema solar procedural" /></a>
   <img src="assets/level-1-4.svg" width="49%" alt="Nivel 1-4: Gestor de gastos, app nativa Android (privado)" />
 </p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>Portafolio 3D</b> · <sub>próximamente</sub><br/>
+      <b>Portafolio 3D</b> · <a href="https://julian-hinestroza.vercel.app"><sub>julian-hinestroza.vercel.app</sub></a><br/>
       <sub>Un sistema solar procedural inspirado en <i>Outer Wilds</i> donde cada planeta es un proyecto. La geometría, los shaders y el sonido se generan por código.</sub>
     </td>
     <td width="50%" valign="top">
@@ -108,7 +108,7 @@ Sistema de nóminas por quincenas para un taller de confección.
 
 <a href="https://www.instagram.com/hinestroza_hd/"><img src="https://img.shields.io/badge/@hinestroza__hd-070707?style=for-the-badge&logo=instagram&logoColor=ff2b3a" alt="Instagram @hinestroza_hd" /></a>
 <a href="mailto:julijulihd13@gmail.com"><img src="https://img.shields.io/badge/julijulihd13@gmail.com-070707?style=for-the-badge&logo=gmail&logoColor=ff2b3a" alt="Correo" /></a>
-<img src="https://img.shields.io/badge/Portafolio-pr%C3%B3ximamente-2a0306?style=for-the-badge&labelColor=070707" alt="Portafolio: próximamente" />
+<a href="https://julian-hinestroza.vercel.app"><img src="https://img.shields.io/badge/julian--hinestroza.vercel.app-070707?style=for-the-badge&logo=vercel&logoColor=ff2b3a" alt="Portafolio julian-hinestroza.vercel.app" /></a>
 <!-- LinkedIn (pendiente):
 <a href="https://www.linkedin.com/in/TU-USUARIO/"><img src="https://img.shields.io/badge/LinkedIn-070707?style=for-the-badge&logo=linkedin&logoColor=ff2b3a" alt="LinkedIn" /></a>
 -->
@@ -164,14 +164,14 @@ A fortnightly payroll system for a garment workshop.
 <br/>
 
 <p align="center">
-  <img src="assets/level-1-3.svg" width="49%" alt="Level 1-3: 3D Portfolio, procedural solar system (coming soon)" />
+  <a href="https://julian-hinestroza.vercel.app"><img src="assets/level-1-3.svg" width="49%" alt="Level 1-3: 3D Portfolio, procedural solar system" /></a>
   <img src="assets/level-1-4.svg" width="49%" alt="Level 1-4: Expense manager, native Android app (private)" />
 </p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>3D Portfolio</b> · <sub>coming soon</sub><br/>
+      <b>3D Portfolio</b> · <a href="https://julian-hinestroza.vercel.app"><sub>julian-hinestroza.vercel.app</sub></a><br/>
       <sub>A procedural solar system inspired by <i>Outer Wilds</i> where every planet is a project. Geometry, shaders and sound are all generated in code.</sub>
     </td>
     <td width="50%" valign="top">
@@ -216,7 +216,7 @@ A fortnightly payroll system for a garment workshop.
 
 <a href="https://www.instagram.com/hinestroza_hd/"><img src="https://img.shields.io/badge/@hinestroza__hd-070707?style=for-the-badge&logo=instagram&logoColor=ff2b3a" alt="Instagram @hinestroza_hd" /></a>
 <a href="mailto:julijulihd13@gmail.com"><img src="https://img.shields.io/badge/julijulihd13@gmail.com-070707?style=for-the-badge&logo=gmail&logoColor=ff2b3a" alt="Email" /></a>
-<img src="https://img.shields.io/badge/Portfolio-coming_soon-2a0306?style=for-the-badge&labelColor=070707" alt="Portfolio: coming soon" />
+<a href="https://julian-hinestroza.vercel.app"><img src="https://img.shields.io/badge/julian--hinestroza.vercel.app-070707?style=for-the-badge&logo=vercel&logoColor=ff2b3a" alt="Portfolio julian-hinestroza.vercel.app" /></a>
 
 </div>
 

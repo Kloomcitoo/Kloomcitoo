@@ -43,8 +43,8 @@ export const PROJECTS = [
     alt: 'Confecciones NAP: sistema de nóminas por quincenas para un taller de confección. 39 endpoints, Express, MySQL, React.',
   },
   {
-    id: '1-3', level: '1-3', size: 'small', kind: 'IN DEVELOPMENT', status: 'COMING SOON',
-    title: 'PORTFOLIO 3D',
+    id: '1-3', level: '1-3', size: 'small', kind: 'PORTFOLIO', status: 'LIVE',
+    title: 'PORTFOLIO 3D', url: 'julian-hinestroza.vercel.app',
     tagline: 'PROCEDURAL SOLAR SYSTEM',
     panel: 'ORBIT.VIEW', ill: 'orbits',
     stats: [['33', 'GLSL SHADERS'], ['5', 'PLANETS'], ['3', 'QUALITY TIERS']],

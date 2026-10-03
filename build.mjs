@@ -287,7 +287,7 @@ function smallCard(p) {
   p.stats.forEach(([v, l], i) => { stats += statBox(24 + i * (statW + 12), 338, statW, v, l, 0.3 + i * 0.12); });
   const body = `
 <path d="M1 1H${W - 1}V${H - 30}L${W - 30} ${H - 1}H1Z" fill="none" stroke="${C.red}" stroke-width="2"/>
-${titleBar(W, `LEVEL ${p.level}  //  ${p.kind}`)}
+${titleBar(W, `LEVEL ${p.level}  //  ${p.kind}`, p.url ? `${p.url} →` : '')}
 ${win(24, 48, W - 48, 196, p.panel)}
 ${ILLUSTRATIONS[p.ill](24, 72, W - 48, 172)}
 ${statusLine(24, 278, p.status)}
