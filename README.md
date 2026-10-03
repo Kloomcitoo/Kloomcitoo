@@ -96,8 +96,6 @@ Sistema de nóminas por quincenas para un taller de confección.
 
 <img src="https://raw.githubusercontent.com/Kloomcitoo/Kloomcitoo/output/snake.svg" width="100%" alt="Gráfico de contribuciones" />
 
-<sub>Mis proyectos principales viven en repositorios privados; estas cifras irán creciendo a medida que publique más código.</sub>
-
 </div>
 
 <br/>
@@ -203,8 +201,6 @@ A fortnightly payroll system for a garment workshop.
 <img src="https://streak-stats.demolab.com?user=Kloomcitoo&hide_border=true&background=070707&stroke=2a0306&ring=ff2b3a&fire=ff2b3a&currStreakLabel=ff2b3a&sideLabels=a8a8a8&dates=7a0a12&sideNums=ededed&currStreakNum=ededed" width="49%" alt="Contribution streak" />
 
 <img src="https://raw.githubusercontent.com/Kloomcitoo/Kloomcitoo/output/snake.svg" width="100%" alt="Contribution graph" />
-
-<sub>My main projects live in private repositories; these numbers will grow as I publish more code.</sub>
 
 </div>
 
