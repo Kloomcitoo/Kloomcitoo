@@ -43,22 +43,13 @@ export const PROJECTS = [
     alt: 'Confecciones NAP: sistema de nóminas por quincenas para un taller de confección. 39 endpoints, Express, MySQL, React.',
   },
   {
-    id: '1-3', level: '1-3', size: 'small', kind: 'PORTFOLIO', status: 'LIVE',
+    id: '1-3', level: '1-3', size: 'big', kind: 'PORTFOLIO', status: 'LIVE',
     title: 'PORTFOLIO 3D', url: 'julian-hinestroza.vercel.app',
-    tagline: 'PROCEDURAL SOLAR SYSTEM',
+    tagline: 'INTERACTIVE 3D SOLAR SYSTEM PORTFOLIO',
     panel: 'ORBIT.VIEW', ill: 'orbits',
-    stats: [['33', 'GLSL SHADERS'], ['5', 'PLANETS'], ['3', 'QUALITY TIERS']],
-    chips: ['Three.js', 'R3F', 'GLSL', 'GSAP', 'Zustand', 'Vite'],
+    stats: [['33', 'GLSL SHADERS'], ['5', 'PLANETS'], ['3', 'QUALITY TIERS'], ['ES/EN', 'BILINGUAL UI']],
+    chips: ['Three.js', 'React Three Fiber', 'drei', 'GLSL', 'Postprocessing', 'GSAP', 'Zustand', 'TypeScript', 'Vite', 'Playwright'],
     alt: 'Portafolio 3D: sistema solar procedural donde cada planeta es un proyecto. Three.js, React Three Fiber, shaders GLSL.',
-  },
-  {
-    id: '1-4', level: '1-4', size: 'small', kind: 'PRIVATE LAB', status: 'PRIVATE',
-    title: 'GESTOR DE GASTOS',
-    tagline: 'NATIVE ANDROID BUDGET APP',
-    panel: 'BUDGET.VIEW', ill: 'phone',
-    stats: [['63', 'KOTLIN FILES'], ['6', 'SCREENS'], ['4', 'ROOM ENTITIES']],
-    chips: ['Kotlin', 'Compose', 'Material 3', 'Room', 'Hilt', 'Coroutines'],
-    alt: 'Gestor de gastos del hogar: app nativa Android en Kotlin con Jetpack Compose, Room y Hilt.',
   },
 ];
 

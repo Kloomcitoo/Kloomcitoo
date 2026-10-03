@@ -6,7 +6,7 @@
 
 <a href="#es"><img src="https://img.shields.io/badge/ES-Espa%C3%B1ol-ff2b3a?style=for-the-badge&labelColor=070707" alt="Español" /></a>
 <a href="#english"><img src="https://img.shields.io/badge/EN-English-2a0306?style=for-the-badge&labelColor=070707" alt="English" /></a>
-<img src="https://komarev.com/ghpvc/?username=Kloomcitoo&style=for-the-badge&color=ff2b3a&label=VISITAS" alt="Visitas al perfil" />
+<img src="https://hits.sh/github.com/Kloomcitoo.svg?style=for-the-badge&label=VISITAS&color=ff2b3a&labelColor=070707" alt="Visitas al perfil" />
 
 </div>
 
@@ -55,23 +55,16 @@ Sistema de nóminas por quincenas para un taller de confección.
 
 <br/>
 
-<p align="center">
-  <a href="https://julian-hinestroza.vercel.app"><img src="assets/level-1-3.svg" width="49%" alt="Nivel 1-3: Portafolio 3D, sistema solar procedural" /></a>
-  <img src="assets/level-1-4.svg" width="49%" alt="Nivel 1-4: Gestor de gastos, app nativa Android (privado)" />
-</p>
+<a href="https://julian-hinestroza.vercel.app"><img src="assets/level-1-3.svg" width="100%" alt="Nivel 1-3: Portafolio 3D, sistema solar interactivo" /></a>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>Portafolio 3D</b> · <a href="https://julian-hinestroza.vercel.app"><sub>julian-hinestroza.vercel.app</sub></a><br/>
-      <sub>Un sistema solar procedural inspirado en <i>Outer Wilds</i> donde cada planeta es un proyecto. La geometría, los shaders y el sonido se generan por código.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <b>Gestor de gastos</b> · <sub>privado</sub><br/>
-      <sub>App nativa Android para controlar los ingresos y gastos del hogar en pesos colombianos: gastos fijos y variables, recordatorios y balance por quincena. Es mi laboratorio para Kotlin y Jetpack Compose.</sub>
-    </td>
-  </tr>
-</table>
+### Portafolio 3D · [julian-hinestroza.vercel.app](https://julian-hinestroza.vercel.app)
+
+Mi portafolio es un pequeño sistema solar interactivo, inspirado en *Outer Wilds*, donde cada planeta es un proyecto.
+
+- La geometría, los shaders y el sonido de la escena se generan por código; todo es original.
+- Escena en **Three.js + React Three Fiber** con 33 shaders GLSL propios, postprocesado y animaciones con **GSAP**.
+- Tres niveles de calidad para que funcione fluido tanto en el computador como en el celular.
+- Interfaz bilingüe (ES/EN) y pruebas automatizadas con **Playwright**.
 
 <br/>
 
@@ -161,23 +154,16 @@ A fortnightly payroll system for a garment workshop.
 
 <br/>
 
-<p align="center">
-  <a href="https://julian-hinestroza.vercel.app"><img src="assets/level-1-3.svg" width="49%" alt="Level 1-3: 3D Portfolio, procedural solar system" /></a>
-  <img src="assets/level-1-4.svg" width="49%" alt="Level 1-4: Expense manager, native Android app (private)" />
-</p>
+<a href="https://julian-hinestroza.vercel.app"><img src="assets/level-1-3.svg" width="100%" alt="Level 1-3: 3D Portfolio, interactive solar system" /></a>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>3D Portfolio</b> · <a href="https://julian-hinestroza.vercel.app"><sub>julian-hinestroza.vercel.app</sub></a><br/>
-      <sub>A procedural solar system inspired by <i>Outer Wilds</i> where every planet is a project. Geometry, shaders and sound are all generated in code.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <b>Expense manager</b> · <sub>private</sub><br/>
-      <sub>Native Android app to track household income and expenses in Colombian pesos: fixed and variable expenses, reminders and per-fortnight balance. My lab for Kotlin and Jetpack Compose.</sub>
-    </td>
-  </tr>
-</table>
+### 3D Portfolio · [julian-hinestroza.vercel.app](https://julian-hinestroza.vercel.app)
+
+My portfolio is a small interactive solar system, inspired by *Outer Wilds*, where every planet is a project.
+
+- The scene's geometry, shaders and sound are all generated in code; everything is original.
+- Built with **Three.js + React Three Fiber**, 33 custom GLSL shaders, postprocessing and **GSAP** animations.
+- Three quality tiers so it runs smoothly on both desktop and mobile.
+- Bilingual interface (ES/EN) and automated tests with **Playwright**.
 
 <br/>
 
