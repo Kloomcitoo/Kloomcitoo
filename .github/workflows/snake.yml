@@ -1,0 +1,31 @@
+# Genera la animación de la serpiente sobre el gráfico de contribuciones
+# y la publica en la rama `output` (la usa el README).
+name: contribution-snake
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # todos los días, 00:00 hora de Colombia
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#ffa11f&color_dots=#161616,#3a0508,#7a0a12,#c0141f,#ff2b3a
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

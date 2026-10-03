@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="t d">
+<title id="t">Julian Hinestroza Duarte — Software Engineer / Full-Stack Developer</title>
+<desc id="d">BUGS ARE DEAD. COFFEE IS FUEL. PROD IS FULL. Julian Hinestroza Duarte, ingeniero de software y desarrollador full-stack en Pereira, Colombia.</desc>
+<style>
+/*FONTS*/
+.d{font-family:'Unbounded','Arial Black',Impact,sans-serif;font-weight:900}
+.m{font-family:'Share Tech Mono',ui-monospace,Consolas,monospace}
+.red{fill:#ff2b3a}.dim{fill:#7a0a12}.amb{fill:#ffa11f}.cy{fill:#3df2ff}.ink{fill:#070707}.bone{fill:#ededed}
+
+/* intro: cada línea entra de golpe con un temblor */
+.hit{animation:hit .9s steps(1,end) both}
+.l1{animation-delay:.35s}.l2{animation-delay:1.25s}.l3{animation-delay:2.15s}
+@keyframes hit{0%{opacity:0}8%{opacity:1;transform:translate(6px,-2px)}20%{transform:translate(-5px,2px)}32%{transform:translate(3px,0)}44%{transform:translate(-1px,1px)}56%,100%{opacity:1;transform:none}}
+
+/* bloque del nombre: barrido desde la izquierda */
+.wipe{transform-box:fill-box;transform-origin:left center;animation:wipe .55s cubic-bezier(.7,0,.2,1) 3.05s both}
+@keyframes wipe{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.nm{animation:fade .01s linear 3.45s both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+
+/* ventana de estado: las líneas aparecen una a una */
+.ln{animation:fade .01s linear both}
+.cur{animation:blink 1s steps(1,end) infinite}
+@keyframes blink{50%{opacity:0}}
+
+/* glitch periódico sobre la intro */
+.gl{opacity:0;animation:glitch 7s steps(1,end) 4.5s infinite}
+.gl.b{animation-delay:4.56s}
+@keyframes glitch{0%{opacity:.85;transform:translate(-7px,0)}1.5%{opacity:.85;transform:translate(5px,0)}3%{opacity:0;transform:none}100%{opacity:0}}
+
+/* lluvia */
+.rain line{stroke:#7a0a12;stroke-width:1.4;animation:fall linear infinite}
+@keyframes fall{from{transform:translateY(-140px)}to{transform:translateY(700px)}}
+
+.scan{animation:scan 6s linear infinite}
+@keyframes scan{from{transform:translateY(-40px)}to{transform:translateY(600px)}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.gl{opacity:0}}
+</style>
+<defs>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="13" stitchTiles="stitch"/>
+    <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .07 0"/>
+  </filter>
+  <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#000" opacity=".35"/>
+  </pattern>
+  <linearGradient id="beam" x1="0" x2="0" y1="0" y2="1">
+    <stop offset="0" stop-color="#ff2b3a" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#ff2b3a" stop-opacity=".09"/>
+    <stop offset="1" stop-color="#ff2b3a" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="frame"><rect width="1280" height="560"/></clipPath>
+</defs>
+
+<g clip-path="url(#frame)">
+<rect width="1280" height="560" fill="#070707"/>
+
+<!-- lluvia -->
+<g class="rain">{{RAIN}}</g>
+
+<!-- texto vertical -->
+<text class="d red" font-size="98" letter-spacing="4" transform="translate(44 34) rotate(90)">KLOOM</text>
+
+<!-- meta superior -->
+<g class="m" font-size="15">
+  <text x="176" y="56" class="red">// SYS.BOOT</text>
+  <text x="300" y="56" class="dim">OPERATOR: JHD — REV 2026.10 — NODE: PEREIRA/CO</text>
+  <rect x="1236" y="44" width="14" height="14" class="red"/>
+  <rect x="1214" y="44" width="14" height="14" fill="none" stroke="#ff2b3a" stroke-width="2"/>
+</g>
+<rect x="176" y="70" width="1074" height="2" class="dim"/>
+
+<!-- intro -->
+<g class="d" font-size="54" letter-spacing="1">
+  <g class="hit l1"><text x="172" y="146" class="red">BUGS ARE DEAD.</text></g>
+  <g class="hit l2"><text x="172" y="216" class="red">COFFEE IS FUEL.</text></g>
+  <g class="hit l3">
+    <rect x="168" y="236" width="612" height="66" class="red"/>
+    <text x="180" y="290" class="ink">PROD IS FULL.</text>
+  </g>
+</g>
+<!-- copias de glitch -->
+<g class="d" font-size="54" letter-spacing="1" aria-hidden="true">
+  <g class="gl"><text x="172" y="216" class="cy" opacity=".9">COFFEE IS FUEL.</text></g>
+  <g class="gl b"><text x="172" y="146" class="red">BUGS ARE DEAD.</text><rect x="168" y="120" width="720" height="5" class="ink"/></g>
+</g>
+
+<!-- ventana de estado -->
+<g class="m">
+  <rect x="930" y="96" width="320" height="206" fill="#0b0b0b" stroke="#ff2b3a" stroke-width="2"/>
+  <rect x="930" y="96" width="320" height="24" class="red"/>
+  <text x="940" y="114" font-size="15" class="ink">STATUS</text>
+  <rect x="1229" y="101" width="14" height="14" class="ink"/>
+  <g font-size="15">
+    <g class="ln" style="animation-delay:.6s"><text x="944" y="148" class="dim">OPERATOR</text><text x="1236" y="148" class="red" text-anchor="end">J. HINESTROZA</text></g>
+    <g class="ln" style="animation-delay:.9s"><text x="944" y="174" class="dim">ROLE</text><text x="1236" y="174" class="red" text-anchor="end">FULL-STACK</text></g>
+    <g class="ln" style="animation-delay:1.2s"><text x="944" y="200" class="dim">BASE</text><text x="1236" y="200" class="red" text-anchor="end">PEREIRA, CO</text></g>
+    <g class="ln" style="animation-delay:1.5s"><text x="944" y="226" class="dim">COORD</text><text x="1236" y="226" class="red" text-anchor="end">04.81N 75.69W</text></g>
+    <g class="ln" style="animation-delay:1.8s"><text x="944" y="252" class="dim">CAFFEINE</text><g class="amb">{{BAR:1080,240,10,1}}</g><text x="1236" y="252" class="amb" text-anchor="end">98%</text></g>
+    <g class="ln" style="animation-delay:2.1s"><text x="944" y="282" class="dim">STATE</text><text x="1226" y="282" class="cy" text-anchor="end">SHIPPING</text><rect class="cur" x="1228" y="270" width="8" height="14" fill="#3df2ff"/></g>
+  </g>
+</g>
+
+<!-- bloque del nombre -->
+<g>
+  <path class="wipe red" d="M172 334H1250V404L1222 432H172Z"/>
+  <text class="d ink nm" x="198" y="404" font-size="50" letter-spacing="1">JULIAN HINESTROZA DUARTE</text>
+</g>
+
+<!-- franja inferior -->
+<g class="m">
+  <g>{{BARCODE}}</g>
+  <text x="172" y="530" font-size="11" class="dim" letter-spacing="2">SERIAL Nº KLM-0013-CO</text>
+  <text x="430" y="478" font-size="21" class="red">SOFTWARE ENGINEER <tspan class="dim">//</tspan> FULL-STACK DEVELOPER</text>
+  <text x="430" y="506" font-size="14" class="dim">INGENIERO DE SOFTWARE · DESARROLLADOR FULL-STACK · PEREIRA, COLOMBIA</text>
+  <g transform="translate(1110 488)">
+    <circle r="22" fill="none" stroke="#ff2b3a" stroke-width="2"/>
+    <text y="5" font-size="13" class="red" text-anchor="middle">ES</text>
+    <circle cx="52" r="22" class="red"/>
+    <text x="52" y="5" font-size="13" class="ink" text-anchor="middle">EN</text>
+  </g>
+</g>
+
+<!-- barrido de luz, scanlines y grano -->
+<rect class="scan" x="0" y="0" width="1280" height="40" fill="url(#beam)"/>
+<rect width="1280" height="560" fill="url(#lines)"/>
+<rect width="1280" height="560" filter="url(#grain)"/>
+</g>
+</svg>

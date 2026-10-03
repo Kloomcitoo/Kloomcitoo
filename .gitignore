@@ -1,0 +1,9 @@
+# Fuentes originales (los SVG llevan un subset incrustado; las licencias OFL sí se versionan)
+fonts/src/*.ttf
+fonts/fonts.css
+
+# Previews locales
+preview.html
+view.html
+readme-preview.html
+.claude/
