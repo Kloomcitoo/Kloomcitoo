@@ -44,14 +44,14 @@ Plataforma integral para organizar torneos de pádel de principio a fin: **borra
 
 <a href="https://confeccionesnap.co"><img src="assets/level-1-2.svg" width="100%" alt="Nivel 1-2: Confecciones NAP, sistema de nóminas para un taller de confección" /></a>
 
-### Confecciones NAP · [confeccionesnap.co](https://confeccionesnap.co)
+### Confecciones NAP
 
 Sistema de nóminas por quincenas para un taller de confección.
 
 - Registro de lotes, operaciones y paquetes de operaciones por trabajador.
 - Cierre y apertura de quincenas, abonos con historial y cálculo automático del total a pagar.
 - Exportación de desprendibles y reportes en PDF.
-- Dos roles (administrador y trabajador), con la API REST en **Express 5 + MySQL** y el frontend en **React 19 + Vite + Material UI**.
+- Dos roles (administrador y trabajador).
 
 <br/>
 
